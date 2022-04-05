@@ -5,6 +5,6 @@ export const ImageSvg = styled.img`
     top:0;
     right:0;
     position:absolute;
-    transform:translateX(320px) translateY(-150px);
+    transform:translateX(420px) translateY(-175px);
 
 `

@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export const StyledHeader = styled.header`
       background-color:${({ theme }) => theme.colors.header};
       padding: 8px 0;
-
       display: flex;
       align-items:center;
 `
@@ -56,5 +55,5 @@ export const Image = styled.img`
     top:0;
     right:0;
     z-index: -1;
-    transform:translateY(-60px);
+    transform:translateY(-60px) translateX(130px);
 `
