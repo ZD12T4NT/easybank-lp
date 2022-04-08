@@ -4,6 +4,8 @@ import GlobalStyles from './components/styles/Global'
 import { ThemeProvider } from 'styled-components'
 import { Hero } from './components/Hero'
 import { Perks } from './components/Perks'
+import { Article } from './components/Article'
+import { Footer } from './components/Footer'
 
 const theme = {
   colors: {
@@ -21,8 +23,10 @@ function App() {
     <Header/>
       <Container>
         <Hero />
-        <Perks />
       </Container>
+      <Perks />
+      <Article />
+      <Footer />
     </>
     </ThemeProvider>
   );

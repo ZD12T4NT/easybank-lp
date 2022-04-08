@@ -6,12 +6,18 @@ export const StyledHeader = styled.header`
       padding: 8px 0;
       display: flex;
       align-items:center;
+      z-index:3;
+    position: relative;
+
+
+      
 `
 
 export const Nav = styled.nav`
       display: flex;
       justify-content: space-between;
       align-items: center;
+
 
 `
 
@@ -24,6 +30,7 @@ export const List = styled.ul`
       justify-content: center;
       align-items: center;
       list-style:none;
+
 
       li{
             padding:0 20px;
@@ -54,6 +61,6 @@ export const Image = styled.img`
     margin-left:40px;
     top:0;
     right:0;
-    z-index: -1;
     transform:translateY(-60px) translateX(130px);
+      z-index:2;
 `

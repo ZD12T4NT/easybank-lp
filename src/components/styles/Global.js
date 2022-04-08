@@ -22,6 +22,7 @@ const GlobalStyles = createGlobalStyle`
 
     img{
        max-width: 100%;
+       
     }
 `
 
