@@ -1,12 +1,13 @@
 import React from 'react'
 import { Container } from './styles/Container.styled'
 import { FooterOuter, FooterContainer } from './styles/Footer.styled'
+import { Button } from './styles/Button.styled'
 
 export const Footer = () => {
   return (
     <>
+<FooterOuter>
     <Container>
-        <FooterOuter>
         <FooterContainer>
             <div className="social">
                 <img src="./images/logo.svg" alt="" />
@@ -16,9 +17,11 @@ export const Footer = () => {
                 <img src="./images/icon-pinterest.svg" alt="" />
                 <img src="./images/icon-instagram.svg" alt="" />
             </div>
+            <ul className="list"></ul>
+                <Button> </Button>
         </FooterContainer>
-        </FooterOuter>
     </Container>
+    </FooterOuter>
     </>
   )
 }
