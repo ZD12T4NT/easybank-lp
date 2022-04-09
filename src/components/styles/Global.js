@@ -24,6 +24,14 @@ const GlobalStyles = createGlobalStyle`
        max-width: 100%;
        
     }
+
+    li{
+        list-style:none;
+    }
+
+    a{
+        text-decoration:none;
+    }
 `
 
 export default GlobalStyles

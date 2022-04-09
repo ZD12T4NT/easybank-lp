@@ -39,7 +39,7 @@ export const ArticleContainer = styled.div`
         height:200px;
         margin-bottom:15px;
         border-radius:7px 7px 0 0;
-
+        transition:all 0.3s ease-in-out;
         &:hover{
             transform: scale(0.98);
             cursor: pointer;

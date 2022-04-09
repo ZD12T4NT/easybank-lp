@@ -7,10 +7,12 @@ import { Perks } from './components/Perks'
 import { Article } from './components/Article'
 import { Footer } from './components/Footer'
 
+
 const theme = {
   colors: {
     header: '#fff',
     body: '#fff',
+    color: 'hsl(0, 0%, 68%)',
     footer: 'hsl(233, 26%, 24%)'
   },
 }
