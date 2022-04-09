@@ -15,6 +15,14 @@ const theme = {
     color: 'hsl(0, 0%, 68%)',
     footer: 'hsl(233, 26%, 24%)'
   },
+
+  mobile: {
+    small:'768px'
+  },
+
+  tablet:'800px'
+    
+  
 }
 
 function App() {

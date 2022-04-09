@@ -20,14 +20,14 @@ export const Footer = () => {
             </div>
             </div>
             <ul className="list">
-                <li> <a href="">about</a></li>
-                <li> <a href="">contact</a></li>
-                <li> <a href="">blog</a></li>
+                <li> <a href="/#">about</a></li>
+                <li> <a href="/#">contact</a></li>
+                <li> <a href="/#">blog</a></li>
             </ul>
             <ul className="list">
-                 <li> <a href="">careers</a></li>
-                <li> <a href="">support</a></li>
-                <li> <a href="">privacy policy</a></li>
+                 <li> <a href="/#">careers</a></li>
+                <li> <a href="/#">support</a></li>
+                <li> <a href="/#">privacy policy</a></li>
             </ul>
             <div className="button-container">
             <div className='button'>

@@ -13,6 +13,9 @@ export const FooterContainer = styled.div`
     height:25vh;
 
 
+   
+
+
     .social{
         display: flex;
         justify-content: center;
@@ -22,13 +25,26 @@ export const FooterContainer = styled.div`
         img{
             margin:0 6px;
         }
+
+        
         
     }
 
-
-    ul a {
-        color:${({ theme }) => theme.colors.color};        
+    .list{
+        height:100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction:column;
+        
+         a {
+        color:${({ theme }) => theme.colors.color};
+        text-transform:capitalize;
+    
+     }
     }
+
+    
    
 
     span{

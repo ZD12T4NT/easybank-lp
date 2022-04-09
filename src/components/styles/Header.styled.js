@@ -7,7 +7,9 @@ export const StyledHeader = styled.header`
       display: flex;
       align-items:center;
       z-index:3;
-    position: relative;
+      position: relative;
+      box-shadow: 0px 18px 15px -3px rgba(0,0,0,0.1);
+
 
 
       
@@ -18,7 +20,9 @@ export const Nav = styled.nav`
       justify-content: space-between;
       align-items: center;
 
-
+      img{
+            cursor: pointer;
+      }
 `
 
 export const Logo = styled.img`
@@ -52,6 +56,10 @@ export const List = styled.ul`
                    border-image: linear-gradient(45deg, #2BB7DA, #31D35C) 1
              }
             }
+      }
+
+      @media (max-width: ${({ theme }) => theme.mobile.small}){
+            display:none;
       }
 `
 
